@@ -1,0 +1,19 @@
+.promis_sub_details {
+    background-color: #D9D9D9;
+    padding: 66px 20px !important;
+}
+
+.promis_sub_sec img {
+    height: 93%;
+}
+
+.promis_sub_sec h2 {
+    color: #292929;
+
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}

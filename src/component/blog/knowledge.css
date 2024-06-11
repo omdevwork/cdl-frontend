@@ -1,0 +1,44 @@
+.knowledge-content h6 {
+    color: #000;
+
+    font-family: Lora;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+.knowledge-content span{
+    color: #A3A3A3;
+
+font-family: Lora;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 185.714% */
+text-transform: capitalize;
+}
+.knowledgeCard{
+    background: #F5F5F5;
+}
+.knowledgeimg {
+    object-fit: cover; 
+/* height: 260px; */
+}
+.knowledgeimg::after{
+    position: absolute;
+    content: '';
+    background-image: url(../../assest/video.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.knowledgetitle .btn.disabled, .knowledgetitle .btn:disabled, .knowledgetitle fieldset:disabled .btn{
+    border: none;
+}

@@ -1,0 +1,83 @@
+.testimonial {
+    text-align: center;
+}
+
+.testimonial-photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-rating span {
+    font-size: 1.2em;
+}
+
+.testimonial-right .pagination button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.testimonial-right .pagination .disabled {
+    color: #D6D6D6 !important;
+    cursor: pointer;
+}
+
+.testimonial-card img {
+    object-fit: cover;
+}
+
+.testimonial-content h3 {
+    color: #292929;
+
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.testimonial-content span {
+    color: #A3A3A3;
+
+    font-family: Lora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.testimonial-content p {
+    color: #A3A3A3;
+
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    text-transform: capitalize;
+}
+
+.testimonial-right .morereview {
+    border-radius: 4px;
+    border: 1px solid #000;
+    display: inline-flex;
+    padding: 11px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: #F5F5F5;
+}
+.testimonial-right .morereview:hover{
+    border-radius: 4px;
+    border: 1px solid #333; 
+    background: #0F3332;
+    color: #fff;
+}

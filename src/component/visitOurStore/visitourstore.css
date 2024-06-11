@@ -1,0 +1,24 @@
+.visitourstore .QRpart{
+    padding: 0px 32px;
+}
+.QRpart h4{
+    color: #000;
+
+font-family: Lora;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.QRpart p{
+    color: #000;
+
+text-align: center;
+font-family: "Nunito Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}

@@ -1,0 +1,5 @@
+.banner_section video{
+    width: 100%;
+    height: 84vh;
+    object-fit: cover;
+}

@@ -1,0 +1,27 @@
+.topHeader {
+    background-color: #0F3332;
+}
+
+.topHeader h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Virtual {
+    display: inline-flex;
+    padding: 5px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #0D99FF;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+}

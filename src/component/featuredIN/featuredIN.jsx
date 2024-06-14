@@ -45,12 +45,12 @@ const FeaturedInSlider = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container-fluid featureslider_p">
             <div className="row align-items-center">
-                <div className="col-lg-3">
+                <div className="featuresliderleft">
                     <h2 className="featuredINtitle text-center text-lg-start">As Featured In</h2>
                 </div>
-                <div className="col-lg-9 featuredINSlider pb-5 pb-lg-0">
+                <div className="featuresliderright featuredINSlider pb-5 pb-lg-0">
                     <Slider {...settings}>
                         {logos.map((logo) => (
                             <div key={logo.id}>

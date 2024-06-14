@@ -68,7 +68,7 @@
     border-radius: 4px;
     border: 1px solid #000;
     display: inline-flex;
-    padding: 11px 18px;
+    padding: 5px 18px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -80,4 +80,18 @@
     border: 1px solid #333; 
     background: #0F3332;
     color: #fff;
+}
+.testimonial_container_p{
+    padding: 0px 60px !important;
+}
+
+@media (min-width:1200px) {
+    .testimonial_container_p {
+        padding: 0px 40px !important;
+    }
+}
+@media (min-width:1400px) {
+    .testimonial_container_p {
+        padding: 0px 60px !important;
+    }
 }

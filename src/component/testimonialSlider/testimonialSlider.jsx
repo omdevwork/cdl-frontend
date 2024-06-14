@@ -40,6 +40,7 @@ const Testimonials = () => {
             feedback:
                 'Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry’s Standard Dummy Text Ever Since The 1500s, When',
         },
+        
 
     ];
 
@@ -52,7 +53,7 @@ const Testimonials = () => {
     const currentTestimonials = testimonials.slice(startIndex, endIndex);
 
     return (
-        <div className="container mt-5">
+        <div className="container-fluid testimonial_container_p mt-5">
             <div className="row">
                 {/* <div className="col-12 text-center d-flex flex-wrap align-items-center">
                     <h2 className="mb-0 d-flex justify-content-end">Glowing Feedbacks</h2>
@@ -87,7 +88,7 @@ const Testimonials = () => {
                         <h2 className="mb-0">Glowing Feedbacks</h2>
 
                         <div className="pagination-container testimonial-right d-flex flex-wrap position-absolute end-0">
-                            <button className="btn me-2 morereview">Write Review</button>
+                            <button className="btn me-2 morereview fw-semibold">WRITE REVIEW</button>
                             {/* <div className="pagination d-flex align-items-center">
                                 <button
                                     disabled={currentPage === 1}

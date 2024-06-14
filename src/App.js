@@ -1,27 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+// import { Route, Routes } from 'react-router-dom';
 import Navbar from './component/navbar/navbar';
-import Banner from './component/banner/banner';
-import Categories from './component/categories/categories';
-import CustomizeJewelry from './component/customizeJewelry/customizeJewelry';
-import InsideScoop from './component/insideScoop/insideScoop';
-import FeaturedInSlider from './component/featuredIN/featuredIN';
-import TestimonialSlider from './component/testimonialSlider/testimonialSlider'; 
+// import Banner from './component/banner/banner';
+// import Categories from './component/categories/categories';
+// import CustomizeJewelry from './component/customizeJewelry/customizeJewelry';
+// import InsideScoop from './component/insideScoop/insideScoop';
+// import FeaturedInSlider from './component/featuredIN/featuredIN';
+// import TestimonialSlider from './component/testimonialSlider/testimonialSlider'; 
 import Header from  './component/Header/Header';
-import Hero from './component/hero/hero';
-import Access from './component/access/access';
-import Promis from './component/promise/promis';
-import Instagram from './component/instagram/instagram';
-import Knowledge from './component/blog/knowledge';
-import Visitourstore from './component/visitOurStore/visitourstore';
+// import Hero from './component/hero/hero';
+// import Access from './component/access/access';
+// import Promis from './component/promise/promis';
+// import Instagram from './component/instagram/instagram';
+// import Knowledge from './component/blog/knowledge';
+// import Visitourstore from './component/visitOurStore/visitourstore';
+// import from from './component/from/from';
+import Home from './Pages/home';
+import { Route, Routes } from 'react-router-dom';
+import Productpage from './Pages/productpage';
 
 function App() {
   return (
     <>
-      <Navbar /> 
+      {/* <Navbar /> 
       <Header />
       <Hero />
-      {/* <Banner /> */}
+      <Banner />
       <Categories />
       <CustomizeJewelry />
       <InsideScoop />
@@ -32,6 +37,17 @@ function App() {
       <Instagram />
       <Knowledge />
       <Visitourstore />
+      <from /> */}
+
+      <Navbar />
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/product' element={<Productpage />} />
+        {/* <Route path='/contact' element={<Contact_page />} /> 
+        <Route path='/about' element={<About /> }/> */}
+      </Routes>
+      {/* <Footer /> */}
     </>
   );
 }

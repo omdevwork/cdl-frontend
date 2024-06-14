@@ -5,7 +5,7 @@ import insideScoop from '../../assest/indiascoop.png'
 
 const InsideScoop = () => {
     return (
-        <div className='mx-4 InsideScoop'>
+        <div className='mx-2 mx-sm-4 InsideScoop'>
             <div className="container">
                 <h2 className="text-center mb-8 title">The Inside Scoop</h2>
             </div>

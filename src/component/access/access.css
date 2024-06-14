@@ -44,6 +44,9 @@
     top: 30%;
     left: 33%;
 }
+.container_p{
+    padding: 0px 4  0px !important; 
+}
 
 @media (min-width:350px){
     .container{
@@ -109,5 +112,15 @@
         content: '';
         top: 30%;
         left: 540px;
+    }
+}
+@media (min-width:1920px){
+    .container{
+        width: 1920px;
+    }
+    .middale_min-box {
+        content: '';
+        top: 30%;
+        left: 720px;
     }
 }

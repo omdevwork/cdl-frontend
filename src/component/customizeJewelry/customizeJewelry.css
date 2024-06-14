@@ -1,8 +1,19 @@
+.CustomizeJewelry {
+    background: #FAFAFB;
+}
+
+.CustomizeJewelryBox form {
+    background: #FFF;
+    padding: 34px 45px;
+}
+.Customjewlrysub{
+    padding: 35px 22px;
+}
 .CustomJewelryDis h4 {
     color: #000;
 
     font-family: Lora;
-    font-size: 90px;
+    font-size: 82px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -12,7 +23,7 @@
 .CustomJewelryDis span {
     color: #000;
     font-family: Lora;
-    font-size: 48px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -20,10 +31,8 @@
 }
 
 .CustomJewelryDis p {
-
-    font-size: 18px;
     font-family: "Nunito Sans";
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -56,6 +65,11 @@ textarea.form-control {
 .CustomJewelrybox {
     background: #fff;
 }
+.CustomJewelryboxx {
+    background: #fff;
+    padding: 20px 35px;
+}
+
 
 .CustomizeJewelry form label {
     color: #292929;
@@ -79,21 +93,45 @@ textarea.form-control {
     font-style: normal;
     font-weight: 600;
 }
-.CustomizeJewelry form button:hover{
+
+.CustomizeJewelry form button:hover {
     background: transparent;
     color: #0F3332;
-    border: 1px solid #333;
-}
-.form-select {
-    background-color: #F5F5F5 !important;
+    /* border: 1px solid #333; */
 }
 
+.form-select {
+    background-color: #F5F5F5 !important;
+    border-radius: 3px !important;
+}
+.form-select:focus{
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
 .form-control {
     background: #F5F5F5 !important;
+    border-radius: 3px !important;
 }
-.CustomizeJewelryBox{
+
+.CustomizeJewelryBox {
     background: #FAFAFB;
 }
+.customewidth{
+    width: 48% !important;
+}
+
+
+/* change */
+.cutomformright{
+    padding-left: 20px;
+}
+
+
+
 @media (max-width:575px) {
     h3 {
         font-size: 25px;

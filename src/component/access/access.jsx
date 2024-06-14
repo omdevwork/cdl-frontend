@@ -5,7 +5,7 @@ const Access = () => {
   return (
     <>
      <section class="box_section py-5 d-none position-relative d-lg-block">
-        <div class="container">
+        <div class="container container_p">
             <div class="row"> 
                 <div class="box-main col-12">
                     <div class="box_sec_sub col-lg-5">

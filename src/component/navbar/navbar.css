@@ -15,7 +15,7 @@
 
 .Virtual {
     display: inline-flex;
-    padding: 5px 12px;
+    padding: 4px 7px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -24,4 +24,12 @@
     border: none;
     color: #fff;
     margin-left: 20px;
+    font-size: 14px;
+}
+.onlinecall  img{
+    width: 25px;
+    height: 25px;
+}
+.pagination-container{
+    right: 32px;
 }

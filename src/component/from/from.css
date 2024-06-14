@@ -1,0 +1,94 @@
+.from_input_sub input{
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 50px;
+}
+.from_section{
+    background-color: #FAFAFB;
+}
+.from_sub_box  .from_button a{
+    padding: 11px 18px;
+    background-color: #F5F5F5;
+    text-decoration: none;
+    color: #000;
+    transition: all .3s;
+}
+.from_sub_box  .from_button a:hover{
+    background: #0F3332;
+    color: #fff;
+}
+.join_us_sub_box{
+    width: 350px;
+    height: 116px;
+    padding: 20px;
+}
+.from_container_p{
+    padding: 0px 40px !important;
+}
+
+
+
+
+@media (min-width:375px) {
+    .join_us_sub {
+        width:100%;
+    }
+    .from_input_sub input {
+        width:100%;
+    }
+}
+@media (max-width:575px) {
+    .join_us_sub {
+        width: 100%;
+    }
+    .from_input_sub input {
+        width: 100%;
+    }
+}
+@media (min-width:576px) {
+    .join_us_sub {
+        width: 100%;
+    }
+    .from_input_sub input {
+        width: 100%;
+    }
+}
+@media (min-width:768px) {
+    .join_us_sub {
+        width: 350px;   
+    }
+    .from_input_sub input {
+        width: 330px;
+    }
+}
+@media (min-width:992px) {
+    .join_us_sub {
+        width: 220px;
+    }
+    .from_input_sub input {
+        width: 200px;
+    }
+}
+@media (min-width:1200px) {
+    .join_us_sub {
+        width: 280px;
+    }
+    .from_input_sub input {
+        width: 250px;
+    }
+    .join_us_sub_box {
+        width: 310px;
+    }
+}
+
+@media (min-width:1400px) {
+    .join_us_sub {
+        width: 350px;
+    }
+    .from_input_sub input {
+        width: 290px;
+    }
+    .join_us_sub_box {
+        width: 310px;
+    }
+}

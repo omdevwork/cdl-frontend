@@ -10,7 +10,7 @@ const Instagram = () => {
     return (
         <>
             <section className='instagram pb-100 pb-50'>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="section_taital text-center mb-3">
                             <h4 className='title'>Follow us instagram</h4>

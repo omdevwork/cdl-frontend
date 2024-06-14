@@ -16,7 +16,7 @@ const Promis = () => {
                         </div>
                         <div className="col-12 d-flex flex-wrap">
                             <div className=" col-12 col-xl-4 d-flex justify-content-center">
-                                <div className="promis_sub_sec text-center text-xl-start ">
+                                <div className="promis_sub_sec text-center text-xl-start mb-5 mb-xl-0">
                                 <img src={promis1} alt="" className='img-fluid' />
                                     <h2 className='mt-3'>OAR Huggie Earings</h2>
                                 </div>
@@ -24,7 +24,7 @@ const Promis = () => {
                             <div className=" col-12 col-xl-8">
                                 <div className="promis_cdl_sub">
                                     <div className="col-12">
-                                        <div className="promis_sub_details mx-2">
+                                        <div className="promis_sub_details mx-0 mx-md-2 mb-5 mb-md-0 text-center text-md-start">
                                             <h2>CDL Promise</h2>
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
                                             <div className="promis_button mb-5">

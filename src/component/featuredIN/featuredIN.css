@@ -23,6 +23,15 @@
     line-height: normal;
     text-transform: capitalize;
 }
+.featuresliderleft{
+    width: 20% !important;
+}
+.featuresliderright{
+    width: 80% !important;
+}
+.featureslider_p{
+    padding: 0px 90px !important;
+}
 @media (max-width:575px) {
     .featuredINSlider .slick-track { 
         left: 35px !important; 

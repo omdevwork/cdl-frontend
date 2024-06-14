@@ -1,0 +1,249 @@
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  /* Define the max width for the main image */
+  margin: 0 auto;
+  /* Center the image */
+  height: 500px;
+  /* Fixed height to maintain aspect ratio */
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* Ensure the image fits within the container */
+  /* border: 2px solid #ddd;   */
+}
+
+.thumbnail img {
+  width: 81.971px;
+  /* Set a fixed width for thumbnails */
+  height: 85.603px;
+  /* Set a fixed height for thumbnails */
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.thumbnail img:hover,
+.thumbnail img:active {
+  border: 2px solid #007bff;
+}
+
+.thumbnail-wrapper button,
+.btn-link:hover {
+  background-color: #a3a3a3 !important;
+  padding: 1px 8px;
+  border-radius: 0px;
+}
+
+.thumbnail-wrapper .btn-link,
+.btn-link:hover {
+  color: #fff !important;
+}
+
+/* right side */
+.product_main_menu {
+  background-color: #F5F5F5;
+  padding: 30px;
+}
+
+.product_min_image img {
+  width: 30px;
+  height: 30px;
+}
+
+.selact_sub-button a {
+  padding: 12px;
+}
+
+.productpage .active {
+  background-color: #0F3332;
+}
+
+.product_sub_menu .border_img {
+  border: 2px dashed #000 !important;
+  width: 45px;
+  height: 45px;
+}
+
+.product_main_menu label {
+  color: #000;
+  font-family: Lora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.product_main_menu h6 {
+  color: #000;
+  font-family: Lora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+
+/* .form-select{
+  padding: 15px 20px !important;
+} */
+.add_cart_button a {
+  padding: 10px 20px;
+  background-color: #0F3332;
+}
+
+/* .price_reveal::before {
+  position: absolute;
+  content: '';
+  width: 105px;
+  height: 20px;
+  top: 19px;
+  left: 88px;
+  background-color: #fff;
+  z-index: 2;
+  filter: blur(5.5px);
+} */
+
+.price_reveal h2 {
+  font-size: 45px;
+  /* filter: blur(5.5px); */
+}
+
+.price_reveal p { 
+  bottom: 30px;
+  left: 83%;
+  z-index: 3;
+  color: #0F3332;
+  font-family: Lora;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  text-transform: capitalize !important;
+}
+
+.video_content {
+  background-color: #EAEAEA;
+}
+
+.video_button a {
+  padding: 8px 10px;
+  background-color: #0F3332;
+  text-decoration: none;
+}
+
+.video_image img {
+  width: 133% !important;
+  height: auto;
+  /* height: 164px; */
+  object-fit: contain;
+}
+.video_content{
+  padding: 8px 0;
+}
+.productpage a {
+  text-decoration: none;
+  color: #000;
+}
+
+.rightproduct .product_main_menu h4 {
+  color: #000;
+  font-family: Lora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.rightproduct .product_main_menu p {
+  color: #000;
+
+  font-family: Lora;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.product_box .form-select {
+  color: #525252;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  height: 40px;
+  background-color: #fff !important;
+}
+
+
+/* last change */
+.video_content {
+  background-color: #EAEAEA;
+}
+
+.video_content h5 {
+  font-size: 14px;
+}
+
+.video_button a {
+  padding: 10px 40px;
+  background-color: #0F3332;
+  font-size: 12px;
+}
+
+.video_image img {
+  width: 260.245px;
+  /* height: 157.24px; */
+  object-fit: contain;
+}
+
+.video_content p {
+  font-size: 12px;
+}
+.price_reveal h2{
+  color: #000;
+font-family: Lora;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.selact_sub-button{ 
+font-family: Lora;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+
+
+@media (min-width:375px) {
+  .thumbnail img {
+    height: 55.603px;
+    /* Set a fixed height for thumbnails */
+  }
+}
+
+@media (min-width:992px) {
+  .thumbnail img {
+    height: 65px;
+    /* Set a fixed height for thumbnails */
+  }
+
+}

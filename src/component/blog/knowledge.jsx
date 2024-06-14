@@ -92,7 +92,7 @@ const Knowledge = () => {
                                 src={testimonial.image}
                                 alt={testimonial.name}
                                 className="img-fluid mt-3 position-relative knowledgeimg"
-                                style={{ width: '425px', height: '260px', }}
+                                style={{ }}
                             />
                             <div className="knowledge-content">
                                 <h6 className="mb-0 mt-2">{testimonial.name}</h6>

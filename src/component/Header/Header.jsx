@@ -25,7 +25,7 @@ const Header = () => {
                 </div>
             </section> */}
             {/* largedekstop-dekstop-laptop  */}
-            <header className='d-none d-lg-block'>
+            <header className='d-none d-lg-block sticky-top bg-white'>
                 <div className="container-fluid">
                     <div className="row">
                         <nav class="navbar navbar-expand-lg p-2 p-xl-0 ">

@@ -442,6 +442,9 @@ header .form-select:focus {
     header .from_input {
         width: 400px;
     }
+    header form button {
+        left: 400px;
+    }
 }
 
 @media (min-width: 992px) {

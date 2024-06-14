@@ -33,3 +33,26 @@
 .pagination-container{
     right: 32px;
 }
+@media (min-width:1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    .topHeader .container-fluid{
+        padding: 0px;
+    } 
+    
+    .pagination-container {
+        right: 62px;
+    }
+}
+@media (min-width:1920px) {
+    .container {
+        max-width: 1920px;
+    }
+    .topHeader .container-fluid{
+        padding: 0px 80px;
+    }
+    .pagination-container {
+        right: 22px;
+    }
+}

@@ -1,6 +1,8 @@
 header .container {
     /* max-width: 1920px !important; */
     padding: 0 10px;
+    overflow: hidden;
+
 }
 
 header {
@@ -396,10 +398,15 @@ header .form-select:focus {
     .container {
         max-width: 1320px;
     }
+    header .container-fluid{
+        margin: 0px 40px;
+    overflow: hidden;
 
+    }
     header .form-control {
         width: 300px !important;
     }
+    
 
     .btn {
         top: 1px;
@@ -407,11 +414,11 @@ header .form-select:focus {
     }
 
     header .from_input {
-        width: 400px;
+        width: 350px;
     }
 
     header form button {
-        left: 400px;
+        left: 350px;
 
     }
 
@@ -421,5 +428,25 @@ header .form-select:focus {
 
     header .from_input::placeholder {
         font-size: 16px !important;
+    }
+}
+@media (min-width:1920px) {
+    .container {
+        max-width: 1920px;
+    }
+    header .container-fluid{
+        margin: 0px 80px;
+    overflow: hidden;
+
+    }
+    header .from_input {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: center !important;
     }
 }

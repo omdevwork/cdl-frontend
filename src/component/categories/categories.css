@@ -116,19 +116,22 @@
 /* nav menu */
 .categoriesmenu {
     border: 1px solid !important;
-    width: fit-content !important;
+    width: 100% !important;
     margin: 0 auto !important;
     border-radius: 50px;
     overflow-x: auto;
 }
 
-.productslider img {
+/* .productslider img {
     width: 228px;
     height: 245px;
+} */
+.productslider img {
+    width: 245px;
+    height: 315px;
 }
-
 .productslider h5 {
-    width: 130%;
+    width: 100%;
     color: #292929; 
     font-family: Lora;
     font-size: 18px;
@@ -139,7 +142,7 @@
 }
 
 .slick-track {
-    margin-left: -21px !important;
+    margin-left: -10px !important;
 }
 .categoriestitle{
     color: #292929; 
@@ -150,7 +153,9 @@ font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
 }
-
+.categorieitem{
+    padding: 16px 75px !important;
+}
 @media (max-width:575px) {
     .categoriesmenu {
         width: 100% !important;
@@ -173,10 +178,10 @@ text-transform: capitalize;
 
 @media (min-width:992px) {
     .categoriesmenu {
-        width: fit-content !important;
+        width: 85% !important;
     }
     .productslider h5{
-        width: 130%;
+        width: 100%;
     }
     .productslider img {
         width: 198px;
@@ -187,10 +192,59 @@ text-transform: capitalize;
     .slick-prev {
         top: 160px !important;
     }
+    .categorieitem{
+        padding: 16px 45px !important;
+    }
+
+}
+@media (min-width:1200px) {
+    .categoriesmenu {
+        width: 85% !important;
+    }
+    .productslider h5{
+        width: 100%;
+    }
+    .productslider img {
+        width: 198px;
+        height: 245px;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: 160px !important;
+    }
+    .categorieitem{
+        padding: 16px 55px !important;
+    }
 
 }
 @media (min-width:1400px) {
     .container{
     max-width: 1320px; 
+    }
+    .productslider img {
+        width: 210px;
+        height: 290px;
+    }
+    .slick-track {
+        margin-left: -5px !important;
+    }
+    .categorieitem{
+        padding: 16px 58px !important;
+    }
+}
+@media (min-width:1920px) {
+    .container{
+    max-width: 1920px; 
+    }
+    .productslider img {
+        width: 245px;
+        height: 315px;
+    }
+    .slick-track {
+        margin-left: -10px !important;
+    }
+    .categorieitem{
+        padding: 16px 75px !important;
     }
 }

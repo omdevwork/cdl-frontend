@@ -90,10 +90,10 @@ const Categories = () => {
                 </div>
                 <div className="mb-1">
                     <nav className="bg-white">
-                        <ul className="categoriesmenu navbar-nav flex-row d-flex justify-content-start justify-content-lg-center ">
+                        <ul className="categoriesmenu navbar-nav flex-row d-flex justify-content-start ">
                             {categories.map((category) => (
-                                <li className="py-1 px-4 flex-shrink-0" key={category.id}>
-                                    <a href="#" className="nav-link d-flex justify-start lg:justify-center items-center bg-gray-200 px-4 py-2 rounded-full hover:bg-gray-300">
+                                <li className="flex-shrink-0" key={category.id}>
+                                    <a href="#" className="categorieitem nav-link d-flex justify-content-center align-items-center rounded-full hover:bg-gray-300">
                                         {category.name}
                                     </a>
                                 </li>
@@ -104,7 +104,7 @@ const Categories = () => {
                 <Slider {...settings}>
                     {products.map(product => (
                         <div key={product.id} className='p-2'>
-                            <div className="bg-white productslider p-4 rounded-lg text-center">
+                            <div className="bg-white productslider px-0 py-3 rounded-lg text-center">
                                 <div className="">
 
                                 <img src={product.img} alt={product.name} className='w-full object-cover mb-2' />

@@ -13,8 +13,35 @@ import cuntry1 from '../../assest/cuntry1.svg'
 import cuntry2 from '../../assest/cuntry2.svg'
 import cuntry3 from '../../assest/cuntry3.svg'
 import cuntry4 from '../../assest/cuntry4.svg'
+import { Link, useLocation } from 'react-router-dom';
+
+const TABS = [
+    {
+        name: "PRODUCTS",
+        path: "/categorypage"
+    },
+    {
+        name: "WORLD OF CDL",
+        path: "/world-of-cdl"
+    },
+    {
+        name: "GIFTS",
+        path: ""
+    },
+    {
+        name: "GALLERY",
+        path: ""
+    },
+    {
+        name: "CONTACT US",
+        path: "/contactus"
+    },
+]
 
 const Header = () => {
+
+    const location = useLocation()
+
     return (
         <>
             {/* <section className=' header nav_top py-2  text-center'>
@@ -30,14 +57,19 @@ const Header = () => {
                     <div className="row">
                         <nav class="navbar navbar-expand-lg p-2 p-xl-0 ">
                             <div class="container-fluid">
-                                <a class="navbar-brand col-1 me-0" href="#"><img src={logo} alt="" /></a>
+                                <Link class="navbar-brand col-1 me-0" to="/"><img src={logo} alt="" /></Link>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                                     <div className="header_box d-flex col-12 col-lg-5 justify-content-center justify-content-lg-end  justify-content-xl-start">
                                         <ul class="navbar-nav  mb-2 mb-lg-0 text-center text-lg-satrt mb-4 mb-lg-0">
-                                            <li class="nav-item">
+                                            {
+                                                TABS.map((v, i) => <li class="nav-item">
+                                                    <Link key={i} class={`nav-link active ${location.pathname === v.path ? 'text-primary' : 'text-dark'} p-2`} aria-current="page" to={v.path}>{v.name}</Link>
+                                                </li>)
+                                            }
+                                            {/* <li class="nav-item">
                                                 <a class="nav-link active text-dark  p-2" aria-current="page" href="#">PRODUCTS</a>
                                             </li>
                                             <li class="nav-item">
@@ -51,7 +83,7 @@ const Header = () => {
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link text-dark p-2" aria-disabled="true">CONTACT US</a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                     <div className="header_box_menu col-12 col-lg-7 d-md-flex justify-content-between justify-content-xl-end align-items-center">
@@ -120,7 +152,12 @@ const Header = () => {
                                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                                     <div className="header_box d-flex col-12 col-lg-5 justify-content-center justify-content-lg-between justify-content-xl-start ">
                                         <ul class="navbar-nav  mb-2 mb-lg-0 text-center text-lg-satrt mb-4 mb-lg-0">
-                                            <li class="nav-item">
+                                            {
+                                                TABS.map((v, i) => <li class="nav-item">
+                                                    <Link key={i} class={`nav-link active ${location.pathname === v.path ? 'text-primary' : 'text-dark'} p-2`} aria-current="page" to={v.path}>{v.name}</Link>
+                                                </li>)
+                                            }
+                                            {/* <li class="nav-item">
                                                 <a class="nav-link active text-dark  p-2" aria-current="page" href="#">PRODUCTS</a>
                                             </li>
                                             <li class="nav-item">
@@ -134,11 +171,11 @@ const Header = () => {
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link text-dark p-2" aria-disabled="true">CONTACT US</a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
-                                <a class="navbar-brand col-1 me-2" href="#"><img src={logo} alt="" /></a>
+                                <Link class="navbar-brand col-1 me-2" to="/"><img src={logo} alt="" /></Link>
                                 <div className="header_box_menu  col-9 d-flex justify-content-between justify-content-xl-end align-items-center">
                                     <form class="d-flex position-relative justify-content-center justify-content-lg-start" role="search">
                                         <input className="from_input  rounded-0 bg-transparent fw-normal p-2" type="search" placeholder="SEARCH BY DIAMOND NECKLACE " aria-label="Search" />
@@ -192,7 +229,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            {/* mobile */}
+            {/* mobile */} 
             <header className='d-block d-md-none'>
                 <div className="container">
                     <div className="row">
@@ -209,7 +246,12 @@ const Header = () => {
                                     <div class="offcanvas-body">
                                         <nav>
                                             <ul className='p-0'>
-                                                <li className='p-3 border-bottom border-dark'>
+                                                {
+                                                    TABS.map((v, i) => <li class="p-3 border-bottom border-dark">
+                                                        <Link key={i} class={`${location.pathname === v.path ? 'text-primary' : 'text-dark'}`} aria-current="page" to={v.path}>{v.name}</Link>
+                                                    </li>)
+                                                }
+                                                {/* <li className='p-3 border-bottom border-dark'>
                                                     <a href="javascript;void(0);">PRODUCTS</a>
                                                 </li>
                                                 <li className='p-3 border-bottom border-dark'>
@@ -223,14 +265,14 @@ const Header = () => {
                                                 </li>
                                                 <li className='p-3 border-bottom border-dark'>
                                                     <a href="javascript;void(0);">CONTACT US</a>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </nav>
 
                                     </div>
                                 </div>
                             </div>
-                            <a class="navbar-brand  col-sm-2 col-md-1 me-0" href="#"><img src={logo} alt="" className='col-9' /></a>
+                            <Link class="navbar-brand  col-sm-2 col-md-1 me-0" to="/"><img src={logo} alt="" className='col-9' /></Link>
                             <div className="header_box_menu col-6 col-md-9  d-flex justify-content-between">
                                 <form class="d-flex position-relative justify-content-center justify-content-lg-start mb-4 mb-md-0" role="search">
                                     <input className="from_input_mobile d-none d-md-block rounded-0 bg-transparent fw-normal py-2 ps-4 pe-2 border-bottom border-dark" type="search" placeholder="SEARCH BY DIAMOND NECKLACE " aria-label="Search" />

@@ -50,8 +50,8 @@ function App() {
         <Route path='/categorypage' element={<Categorypage />} />
         <Route path='/contactus' element={<Contactus />} />
         <Route path='/world-of-cdl' element={<Worldofcdl />} />
-        {/* <Route path='/contact' element={<Contact_page />} /> 
-        <Route path='/about' element={<About /> }/> */}
+        {/* <Route path='/contact' element={<Contact_page />} />  */}
+        {/* <Route path='/about' element={<About /> }/> */}
       </Routes>
       {/* <Footer /> */}
     </>

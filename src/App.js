@@ -22,6 +22,8 @@ import Productpage from './Pages/productpage';
 import Categorypage from './Pages/categorypage';
 import Contactus from './Pages/contactus';
 import Worldofcdl from './Pages/world-of-cdl';
+import Signup from './Pages/signup';
+import Login from './Pages/login';
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
         <Route path='/categorypage' element={<Categorypage />} />
         <Route path='/contactus' element={<Contactus />} />
         <Route path='/world-of-cdl' element={<Worldofcdl />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/signin' element={<Login />} />
         {/* <Route path='/contact' element={<Contact_page />} />  */}
         {/* <Route path='/about' element={<About /> }/> */}
       </Routes>

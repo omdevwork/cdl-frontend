@@ -1,0 +1,43 @@
+.whyCDL .image-slider {
+    display: flex;
+    align-items: center;
+}
+
+.whyCDL .slider-images {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.whyCDL .slider-image {
+    /* max-height: 230px; */
+    /* Adjust as needed */
+    cursor: pointer;
+}
+
+.whyCDL .slider-images img {
+    width: 242px !important;
+    /* height: 300px !important; */
+    height: 550px;
+    object-fit: cover;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+.whyCDL .image-content {
+    height: 410px;
+}
+.whyCDL .image-content h3 {
+    color: #292929;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 214.286% */
+    text-transform: capitalize;
+}

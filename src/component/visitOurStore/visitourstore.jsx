@@ -6,7 +6,7 @@ const Visitourstore = () => {
         <div className='container py-5 visitourstore'>
             <h2 className='text-center mb-5 title'>Visit Our Store</h2>
             <div className="row">
-                <div className="col-12 d-flex flex-wrap align-items-center px-0">
+                <div className="col-12 d-flex flex-wrap align-items-start px-0">
                     <div className="col-12 col-lg-6 QRpart text-center mb-5 mb-lg-0">
                         <img src={qrcode} alt="" />
                         <h4>CDL FINESHINE</h4>

@@ -15,7 +15,7 @@ const InsideScoop = () => {
                         <img src={insideScoop} alt="" className='img-fluid'/>
                     </div>
                     <div className="col-12 col-lg-6">
-                        <div className="overflow-y-scroll   InsideScoopcontent">
+                        <div className="overflow-y-scroll InsideScoopcontent">
                             <h4 className="mb-4 text-center">PARTH VAGHANI</h4>
                             <p className="text-gray-600 text-center">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets</p>
                         </div>

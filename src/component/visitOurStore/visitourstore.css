@@ -22,3 +22,7 @@ font-weight: 500;
 line-height: normal;
 text-transform: capitalize;
 }
+.map-container iframe{
+    width: 100%;
+    height: 428px;
+}

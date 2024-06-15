@@ -12,7 +12,7 @@
 .CustomJewelryDis h4 {
     color: #000;
 
-    font-family: Lora;
+    font-family: "Lora";
     font-size: 82px;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +22,7 @@
 
 .CustomJewelryDis span {
     color: #000;
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +42,7 @@
 h3 {
     color: #000;
 
-    font-family: Lora;
+    font-family: "Lora";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -96,8 +96,7 @@ textarea.form-control {
 
 .CustomizeJewelry form button:hover {
     background: transparent;
-    color: #0F3332;
-    /* border: 1px solid #333; */
+    color: #0F3332; 
 }
 
 .form-select {
@@ -121,7 +120,7 @@ textarea.form-control {
     background: #FAFAFB;
 }
 .customewidth{
-    width: 48% !important;
+    width: 49% !important;
 }
 
 

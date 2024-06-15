@@ -68,7 +68,7 @@
     border-radius: 4px;
     border: 1px solid #000;
     display: inline-flex;
-    padding: 5px 18px;
+    padding: 11px 18px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -93,5 +93,13 @@
 @media (min-width:1400px) {
     .testimonial_container_p {
         padding: 0px 60px !important;
+    }
+    .testimonial-right .morereview{
+        padding: 5px 18px;
+    }
+}
+@media (min-width:1920px) { 
+    .testimonial-right .morereview{
+        padding: 11px 18px;
     }
 }

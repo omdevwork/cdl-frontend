@@ -1,0 +1,30 @@
+.contactinfo img {
+    width: 50px;
+    height: 50%;
+}
+
+.contactinfo .div p, .contactinfo .div a  {
+    color: #000;
+    /* leading-trim: both;
+    text-edge: cap; */
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+.contactinfo .div a { 
+    font-size: 16px; 
+}
+.contactbtn{
+    border-radius: 4px;
+    background: #0F3332 !important;
+    color: #fff !important;
+    padding: 11px 18px !important;
+}
+.contactpageform form input, .contactpageform form textarea {
+    border: 1px solid #000 !important;
+    background: transparent !important;
+}

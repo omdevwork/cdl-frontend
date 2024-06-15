@@ -19,6 +19,9 @@ import Header from  './component/Header/Header';
 import Home from './Pages/home';
 import { Route, Routes } from 'react-router-dom';
 import Productpage from './Pages/productpage';
+import Categorypage from './Pages/categorypage';
+import Contactus from './Pages/contactus';
+import Worldofcdl from './Pages/world-of-cdl';
 
 function App() {
   return (
@@ -44,6 +47,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<Productpage />} />
+        <Route path='/categorypage' element={<Categorypage />} />
+        <Route path='/contactus' element={<Contactus />} />
+        <Route path='/world-of-cdl' element={<Worldofcdl />} />
         {/* <Route path='/contact' element={<Contact_page />} /> 
         <Route path='/about' element={<About /> }/> */}
       </Routes>

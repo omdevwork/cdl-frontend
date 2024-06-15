@@ -48,7 +48,7 @@ const FeaturedInSlider = () => {
         <div className="container-fluid featureslider_p">
             <div className="row align-items-center">
                 <div className="featuresliderleft">
-                    <h2 className="featuredINtitle text-center text-lg-start">As Featured In</h2>
+                    <h2 className="featuredINtitle text-center text-lg-start mb-0">As Featured In</h2>
                 </div>
                 <div className="featuresliderright featuredINSlider pb-5 pb-lg-0">
                     <Slider {...settings}>
